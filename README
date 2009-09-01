@@ -36,6 +36,8 @@ Rails 2.0 (copied from CHANGELOG)
   * Views
     * form_for (ff)
     * link_to for resource paths (lip, lipp, linp, linpp)
+    * <% if ___ -%> ... <% end -%> (if...end)
+    * <% ___.each do |_| -%> ... <% end -%> (each)
     * <% end -%> (end)
   * Models
     * has_many :though (hmt)
