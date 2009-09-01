@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;% ${1:collection}.each do |${2:${1/(@$)|\W?(.+)s$|\W?(\w).*$/(?1:x)(?2:\l$2)(?3:\l$3)/}}| -%&gt;
+  $0
+&lt;% end -%&gt;</string>
+	<key>name</key>
+	<string>each do...end (ERB)</string>
+	<key>scope</key>
+	<string>text.html.ruby</string>
+	<key>tabTrigger</key>
+	<string>each</string>
+	<key>uuid</key>
+	<string>EF69DAE4-AEAD-4EC2-AA1D-64CD1BD5DB9B</string>
+</dict>
+</plist>
